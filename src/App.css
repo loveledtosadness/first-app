@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+.app-wrapper {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-areas: 
+  'he he'
+  'na ma';
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  gap: 15px;
+  width: 1000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Penis {
+  grid-area: he;
+  background-color: rgb(209, 207, 207);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Penis img {
+  width: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Booty {
+  grid-area: ma;
+  background-color: rgb(209, 207, 207);
 }
 
-.App-link {
-  color: #61dafb;
+.Booba {
+  grid-area: na;
+  background-color: rgb(209, 207, 207);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Avatar img{
+  border-radius: 50%;
+  width: 200px;
+  margin: 20px;
+  border: 2px solid black;
+}
+
+.Headsite img {
+  width: 93vw;
+  height: 40vh;
 }
