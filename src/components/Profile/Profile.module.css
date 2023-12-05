@@ -2,21 +2,20 @@
     grid-area: ma;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 2px 5px 0px rgb(121, 121, 121);
-  }
+}
 
-.Avatar img{
-    border-radius: 50%;
-    width: 200px;
-    margin: 20px;
-    border: 2px solid black;
-  }
-  
 .Headsite img {
-    width: 90vw;
-    height: 20vh;
-  }
+    width: 88vw;
+    height: 40vh;
+    border: 1px solid black;
+}
 
 .item {
   margin: 20px;
 }
+
+h1 {
+  font-size: 30px;
+}
+
 
