@@ -1,9 +1,9 @@
 import React from "react";
 import logo from './logo.svg';
 import './App.css';
-import Header from "./components/Header";
-import Navig from "./components/Navig";
-import Profile from "./components/Profile";
+import Header from "./components/Header/Header";
+import Navig from "./components/Navig/Navig";
+import Profile from "./components/Profile/Profile";
 
 function App() {
   return (

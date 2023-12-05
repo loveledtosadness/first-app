@@ -6,38 +6,12 @@
   'he he'
   'na ma';
   grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
+  grid-template-columns: 5fr 8fr;
   gap: 15px;
   width: 1000px;
 }
 
-.Penis {
-  grid-area: he;
-  background-color: rgb(209, 207, 207);
-}
 
-.Penis img {
-  width: 20px;
-}
 
-.Booty {
-  grid-area: ma;
-  background-color: rgb(209, 207, 207);
-}
 
-.Booba {
-  grid-area: na;
-  background-color: rgb(209, 207, 207);
-}
 
-.Avatar img{
-  border-radius: 50%;
-  width: 200px;
-  margin: 20px;
-  border: 2px solid black;
-}
-
-.Headsite img {
-  width: 93vw;
-  height: 40vh;
-}
