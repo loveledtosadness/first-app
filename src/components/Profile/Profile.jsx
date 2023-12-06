@@ -8,7 +8,7 @@ import NameSurename from './NameSurename/nameSurename';
 
 const Profile = () => {
     return (
-      <div className={classes.Content}>
+      <div>
         <div className={classes.Headsite}>
           <img src="https://a-static.besthdwallpaper.com/tokyo-ghoul-re-kishou-arima-ken-kaneki-haise-saaki-wallpaper-2560x1080-9479_14.jpg"/>
           </div>

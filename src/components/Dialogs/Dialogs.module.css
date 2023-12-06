@@ -1,0 +1,23 @@
+
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 15px;
+    grid-template-areas: 'le ri';
+    margin: 10px;
+}
+
+.dialogItems {
+    grid-area: le;
+    border: 1px solid black;
+}
+
+.dialog .active {
+    color: blue;
+}
+
+.messages {
+    grid-area: ri;
+    border: 1px solid black;
+}
+

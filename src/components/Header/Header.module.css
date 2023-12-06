@@ -1,23 +1,17 @@
-.Head {
-    grid-area: he;
-    background-color: rgb(209, 207, 207);
-    box-shadow: 0px 2px 5px 0px rgb(121, 121, 121);
-  }
   
-.item img {
-    width:40px;
-    padding: 10px;
-}
-.item h1 {
-  position: absolute;
-  top: -15px;
-  right: 30px;
+h1 img {
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: -10px;
+  width:40px;
+
 }
 
-.name {
+
+.item h1 {
+  text-align: left;
   vertical-align: middle;
-  text-align: center;
-  font-size: 30px;
-  /* position: absolute; */
 }
+
+
 

@@ -1,13 +1,10 @@
-.Content {
-    grid-area: ma;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 2px 5px 0px rgb(121, 121, 121);
-}
+
 
 .Headsite img {
-    width: 88vw;
-    height: 40vh;
-    border: 1px solid black;
+  margin: auto  ;
+  width: 77vw;
+  height: 35vh;
+  border: 1px solid black;
 }
 
 .item {
