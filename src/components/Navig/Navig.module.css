@@ -1,22 +1,25 @@
 
 
-.item a:hover {
+.navBody a:hover {
   color:rgb(0, 0, 0);
 }
 
-.item a:active {
+.navBody a:active {
   color: rgb(207, 207, 207);
 }
 
 
 .item {
-  font-size: 30px;
+  font-size: 15px;
   font-weight: bold;
-  padding: 20px;
-  margin: 10px;
-  border: 6px double rgb(0, 0, 0);
+  padding: 10px;
   text-align: center;
-  background-color: rgb(180, 180, 180);
+  background-color: rgb(243, 243, 243);
+
+}
+
+.item:hover {
+  background-color: rgb(171, 171, 171);
 }
 
 a {

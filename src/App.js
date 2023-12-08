@@ -8,6 +8,12 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
 import News from "./components/News/News";
+import MyMusic from './components/Music/MusicComponents/MusicMyMusic'
+import MusicFyp from "./components/Music/MusicComponents/MusicFYP";
+import Playlists from "./components/Music/MusicComponents/MusicPlaylists";
+import NewsFyp from "./components/News/NewsComponents/NewsFyp";
+import fullPost from "./components/News/NewsComponents/PostComponents/PostMain";
+
 
 
 
@@ -25,9 +31,15 @@ function App() {
         <div className='app-wrapper-content'>
         <Routes>
           <Route exact path='/dialogs' Component={Dialogs}/>
-          <Route path='/profile' Component={Profile}/>
+          <Route exact path='/profile' Component={Profile}/>
           <Route path='/news' Component={News}/>
-          <Route path='/music' Component={Music}/>
+          <Route path='/news/page' Component={News}/>
+          <Route path='/news/fyp' Component={fullPost}/>
+          <Route path='/news/zxnews' Component={News}/>
+          <Route exact path='/music' Component={MusicFyp}/>
+          <Route path="/music/mymusic" Component={MyMusic} />
+          <Route path="/music/fyp" Component={MusicFyp} />
+          <Route path="/music/playlists" Component={Playlists} />
           <Route path='/settings' Component={Settings}/>
         </Routes>
         </div>

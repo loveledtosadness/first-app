@@ -1,0 +1,41 @@
+.Mymusic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+}
+
+.FriendMusic {
+    border-radius: 20px;
+    border: 1px solid gray;
+    grid-area: fm;
+}
+
+.song {
+    margin: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    
+    border: 1px solid rgba(255, 255, 255, 0.502);
+    background-color: rgba(255, 255, 255, 0.502);
+    width: 500px;
+    text-align: left;
+    border-radius: 30px;
+}
+.song span {
+    padding-left: 10px;
+}
+
+.song img {
+    border-radius: 20px;
+    border: 1px solid gray;
+} 
+
+.song:hover {
+    background-color: rgb(191, 191, 191);
+}
+.songs {
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+

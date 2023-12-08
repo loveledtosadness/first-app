@@ -1,0 +1,21 @@
+.fyps {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 500px);
+    background-color: rgb(224, 224, 224);
+}
+
+
+.Add {
+    background-image: url('../MusicComponents/../../Music/../../components/../../public/maxresdefault.jpg');
+    width: 95%;
+    height: 500px;
+    justify-self: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 5px 0px rgb(127, 127, 127);
+    
+}

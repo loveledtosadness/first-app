@@ -4,7 +4,11 @@ import InputBar from './Posts/InputBar/InputBar';
 import MyAvatar from './MyAvatar/MyAvatar';
 import NameSurename from './NameSurename/nameSurename';
 
-
+const Status = (props) => {
+  return (
+    <div className={classes.item}>{props.status}</div>
+  )
+}
 
 const Profile = () => {
     return (
@@ -18,9 +22,7 @@ const Profile = () => {
           <div className={classes.NameAndSurename}>
             <NameSurename />
           </div>
-        <div className={classes.item}>
-          <p>Na kore mertviy dolbaeb i ved' on tochno tokyiskiy</p>
-        </div>
+        <Status status="Na kore mertviy dolbaeb i ved' on tochno tokyiskiy"/>
         <div className={classes.item}>
             <InputBar />
         </div>

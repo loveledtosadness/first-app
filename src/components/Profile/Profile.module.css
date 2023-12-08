@@ -1,18 +1,20 @@
-
-
 .Headsite img {
   margin: auto  ;
   width: 77vw;
   height: 35vh;
-  border: 1px solid black;
+  border-radius: 40px 40px 0px 0px;
 }
 
 .item {
   margin: 20px;
+  padding: 20px;
 }
 
 h1 {
   font-size: 30px;
 }
 
+.Avatar {
+  margin: 20px;
+}
 
